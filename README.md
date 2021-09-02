@@ -12,3 +12,4 @@ This is the project done within the "The Complete 2021 Web Development Bootcamp"
 ## Result
 
 Enjoy the Simon Game <a href="https://aanmeba.github.io/udemy-simon-game/" target="_blank">here</a>!
+\*\* You should remember the order of colour blocks in previous levels.
