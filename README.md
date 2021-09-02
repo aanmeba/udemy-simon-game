@@ -1,15 +1,15 @@
 # Simon Game
 
-## Overview
+## Description
 
 This is the project done within the "The Complete 2021 Web Development Bootcamp" in Udemy.
 
-## Fetures
+## Featrues
 
 - jQuery
 - DOM
 
-## Result
+## Demo
 
 Enjoy the Simon Game <a href="https://aanmeba.github.io/udemy-simon-game/" target="_blank">here</a>!
 \*\* You should remember the order of colour blocks in previous levels.
