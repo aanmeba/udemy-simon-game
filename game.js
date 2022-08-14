@@ -61,11 +61,20 @@ function nextSequence() {
   let randomChosenColour = buttonColours[randomNumber];
   gamePattern.push(randomChosenColour);
 
-  $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
+    const sleep = (time) => {
+        return new Promise(resolve => setTimeout(resolve, time))
+    }
 
-  playSound(randomChosenColour);
+    const showCompletePattern = async() => {
+        for (let index = 0; index < gamePattern.length; index++) {
+            $("#" + gamePattern[index]).fadeIn(100).fadeOut(100).fadeIn(100);
+            playSound(gamePattern[index])
+            await sleep(500)
+        }
+    }
 
-  
+    showCompletePattern()
+
 }
 
 // reset the game
